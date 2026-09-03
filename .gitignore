@@ -1,0 +1,47 @@
+# Maven
+target/
+
+# Maven generated files
+pom.xml.*.lastUpdated
+release.properties
+
+# Java compiled files
+*.class
+
+# Package files
+*.jar
+!target/*.jar
+
+# Logs
+*.log
+
+# Runtime output
+request_decrypted.txt
+response_decrypted.txt
+payload.class
+
+# CFR output
+decompile/
+
+# IDE
+.idea/
+*.iml
+
+.vscode/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Environment
+.env
