@@ -117,7 +117,7 @@
 
 
 					<mainClass>
-					    Main
+					    com.tools.decoder.Main
 					</mainClass>
 
 

@@ -132,7 +132,7 @@ mvn clean package
 The executable JAR will be generated:
 
 ```
-target/WebShellDecoder-1.0.jar
+target/GodzillaEkpDecoder-1.0.jar
 ```
 
 
@@ -145,7 +145,7 @@ Run directly:
 
 
 ```bash
-java -jar target/WebShellDecoder-1.0.jar
+java -jar target/GodzillaEkpDecoder-1.0.jar
 ```
 
 
@@ -265,7 +265,22 @@ WebShellDecoder
 ├── src
 │   └── main
 │       └── java
-│           └── Main.java
+│           └── com
+│               └── tools
+│                   └── decoder
+│                       ├── Main.java
+│                       ├── cli
+│                       │   └── DecoderCli.java
+│                       ├── decode
+│                       │   ├── DecodeService.java
+│                       │   ├── AesDecryptor.java
+│                       │   ├── Codec.java
+│                       │   ├── GzipUtil.java
+│                       │   └── ClassDetector.java
+│                       ├── decompile
+│                       │   └── CfrDecompiler.java
+│                       └── io
+│                           └── ResultWriter.java
 
 ├── LICENSE
 
